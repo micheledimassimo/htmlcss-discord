@@ -16,7 +16,7 @@ header.bg-color {
     padding-top: 20px;
 }
 
-footer.debug {
+footer {
     background-color: #23272A;
     height: 80px;
     padding-top: 20px;
@@ -158,14 +158,10 @@ footer.debug {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7FFFD4;
+    
     
 }   
-.footer-items {
-    background-color: #FFB6C1;
-    border: 2px dashed black;
-   
-}
+
 /*boxes*/
 .description {
     max-width: 70%;
@@ -224,12 +220,14 @@ footer.debug {
 }
 .green-box {
     width: 1000px;
-    height: 750px;
+    height: 850px;
     text-align: center;
-    margin: auto;
-    
+    margin: auto;    
 }
-
+.green-box > h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 .container-box {
     width: 1000px;
     max-height: 550px;
@@ -246,16 +244,38 @@ footer.debug {
 .red-box {
     height: 450px;
     width: 350px;
-    background-color: #F08080;
-    border: 2px dashed black;
     margin-top: -30px;
-
 }
+.red-box > h3 {
+    color: #6371A4;
+    font-size: 1.5em;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.red-box > p {
+    color: white;
+    font-size: 0.7em;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.red-box > div > a {
+    color: white;
+    font-size: 1.2em;
+    padding-left: 40px;
+}
+.aqua-box > a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.aqua-box > h5 {
+    color: #6371A4;
+}
+
 .aqua-box {
     height: 450px;
     width: calc(650px / 4);
-    background-color: #20B2AA;
-    border: 2px dashed white;
-    margin-top: -30px;
-
 }
