@@ -5,8 +5,8 @@
 }
 
 /*Debug*/
-header.debug {
-    background-color: #ADD8E6;
+header.bg-color {
+    background-color: #255EE9;
     height: 80px;
     padding-top: 20px;
 }
@@ -17,7 +17,7 @@ footer.debug {
     padding-top: 20px;
     
 }
-
+/*HEADER*/
 .container-header {
     max-width: 1000px;
     margin: auto;
@@ -27,12 +27,16 @@ footer.debug {
     justify-content: space-between;
     align-items: center;
     
-    background-color: #DAA520;
 }
 
 .header-items {
-    border: 2px dashed black;
-    
+    font-size: 0.9em;
+}
+.logo-link {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .class25 {
     width: 25%;
@@ -44,11 +48,11 @@ footer.debug {
 .align-right {
     text-align: right;
 }
+
 /*main*/
 .container-section1 {
-    background-color: #00008B;
-    min-height: 450px;
-    padding-top: 50px;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
 }
  
 .container-section2 {
