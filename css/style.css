@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /*Debug*/
 header.bg-color {
@@ -48,11 +51,50 @@ footer.debug {
 .align-right {
     text-align: right;
 }
-
+.gen-button {
+    background-color:white;
+    border: 0px;
+    width: 55px;
+    height: 25px;
+    font-size: 0.7em;
+    border-radius: 15px;
+    
+}
+.button-link {
+    text-decoration: none;
+    color: black;
+}
 /*main*/
 .container-section1 {
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 600px;
+}
+.mac-download {
+    text-decoration: none;
+    color: black;
+    border: 0px;
+    width: 150px;
+    height: 50px;
+    font-size: 0.9em;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.discord-button-link {
+    background-color: #23272A;
+    text-decoration: none;
+    border: 0px;
+    width: 250px;
+    height: 50px;
+    font-size: 0.9em;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.button-link-black {
+    text-decoration: none;
+    color: white;
 }
  
 .container-section2 {
@@ -115,13 +157,24 @@ footer.debug {
    
 }
 /*boxes*/
-.pink-box {
-    max-width: 700px;
-    height: 350px;
-    border: 2px dashed black;
+.description {
+    max-width: 70%;
+    height: 550px;
     margin: auto;
-    background-color: #EE82EE;
+    text-align: center;
+    color: white;
 }
+.description > h1 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+}
+.description > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+}
+
 .light-pink-box {
     min-width: 400px;
     height: 400px;
